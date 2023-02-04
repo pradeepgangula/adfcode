@@ -1,0 +1,19 @@
+{
+	"name": "EmployeeParquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Employeetable",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "stagdb"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
