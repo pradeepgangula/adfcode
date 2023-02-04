@@ -1,0 +1,9 @@
+{
+	"name": "adfetltool",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1bb41362-53b4-497e-988b-b3d24e81adf4",
+		"tenantId": "1c446d4c-d791-4f18-8dc4-191e48f193bc"
+	}
+}
